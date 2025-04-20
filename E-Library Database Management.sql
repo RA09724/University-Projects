@@ -399,7 +399,7 @@ HAVING SUM(CASE WHEN Fines.Cleared = 'Yes' THEN 1 ELSE 0 END) > 2;
 
 
 
---4 4.	Display the name and description of the book borrowed most in each tag color. Sort the result by tag color in descending order. 
+--4
 WITH BookLoansCount AS (
     SELECT 
         Books.BookID,
